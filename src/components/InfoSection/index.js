@@ -15,7 +15,7 @@ function InfoSection({lightBg, id, imgStart, topline, lightText, headline, darkT
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                             <BtnWrap>
-                                <Button to="home"
+                                <Button to="skills"
                                 smooth={true}
                                 duration={500}
                                 spy={true}

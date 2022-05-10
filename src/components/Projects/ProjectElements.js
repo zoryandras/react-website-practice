@@ -43,7 +43,7 @@ export const ProjectCard = styled.div`
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 340px;
+    max-height: 600px;
     padding: 30px;
     box-shadow: 0 1px 3px rgb(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
