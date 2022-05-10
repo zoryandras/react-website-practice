@@ -4,7 +4,7 @@ import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrap
 import {Button} from '../ButtonElement'
 
 const HeroSection = () => {
-  const {hover, setHover} = useState(false)
+  const [hover, setHover] = useState(false)
 
   const onHover = () => {
     setHover(!hover)
@@ -15,12 +15,8 @@ const HeroSection = () => {
           <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
         <HeroContent>
-          <HeroH1>
-            Practice makes perfect!
-          </HeroH1>
-          <HeroP>
-            Jinkies!
-          </HeroP>
+          <HeroH1>This is my demo page!</HeroH1>
+          <HeroP>Glad to have you here!</HeroP>
           <HeroBtnWrapper>
             <Button to="signup" 
             onMouseEnter={onHover} 
@@ -28,7 +24,7 @@ const HeroSection = () => {
             primary="true"
             dark="true"
             >
-              Get started {hover ? <ArrowForward /> : <ArrowRight />}
+              More {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>
         </HeroContent>
