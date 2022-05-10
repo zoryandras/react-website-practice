@@ -7,7 +7,7 @@ const Navbar = ({ toggle }) => {
     <>
         <Nav>
             <NavbarContainer>
-                <NavLogo to="/">Practice</NavLogo>
+                <NavLogo to="/">Varga András</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
@@ -20,6 +20,9 @@ const Navbar = ({ toggle }) => {
                     </NavItem>
                     <NavItem>
                         <NavLinks to="whatidid">What I did before</NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to="projects">Some stuff I made</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="signup">Contact me!</NavLinks>

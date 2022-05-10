@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topline: 'My Project Page',
     headline: 'A demo project what I can do in React',
-    description: 'https://github.com/zoryandras',
+    description: 'https://github.com/zoryandras/react-website-practice',
     buttonLabel: 'Get started',
     imgStart: true,
     img: "images/svg-1.svg",
@@ -43,7 +43,7 @@ export const homeObjThree = {
     buttonLabel: 'Get started',
     imgStart: true,
     img: "images/svg-3.svg",
-    alt: 'Ship',
+    alt: 'third',
     dark: true,
     primary: true,
     darkText: false
