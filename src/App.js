@@ -6,10 +6,10 @@ import SigninPage from './pages/signin';
 function App() {
   return (
     <Router>
-    <Routes>
-      <Route path="/" element={<Home />} exact />
-      <Route path="/signin" element={<SigninPage />} exact />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} exact />
+        <Route path="/signin" element={<SigninPage />} exact />
+      </Routes>
     </Router>
   );
 }
