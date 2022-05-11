@@ -9,7 +9,7 @@ function SignIn() {
                 <Icon to="/">Back to the main page</Icon>
                 <FormContent>
                     <Form action="#">
-                        <FormH1>Just add some nifty information (it's for desing anyway</FormH1>
+                        <FormH1>Just add some nifty information (it's for desing anyway)</FormH1>
                         <FormLabel htmlFor="for">E-mail</FormLabel>
                         <FormInput type="email" required />
                         <FormLabel htmlFor="for">Password</FormLabel>
