@@ -22,7 +22,7 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topline: 'Not so much experience, but eager to learn!',
     headline: '4 months of study as a front-end developer in Codecool',
-    description: 'Four months of intensive HTML, CSS, Javascript, React, Node.js and Docker. As a beginner front-end developer, it is important for me to be able to do useful and professional work not only individually, but also in group projects. It is important for me to learn new technologies that I can use in my future work.  Even though I have not worked in this field before, my previous jobs have developed my teamwork skills, organisation and implementation abilities to a professional level. I am looking forward to finally trying my hand at a company that not only develops my front-end skills, but also my soft-skills.',
+    description: 'Four months of intensive HTML, CSS, Javascript, React, Node.js and Docker. As a beginner front-end developer, it is important for me to be able to do useful and professional work not only individually, but also in group projects. It is important for me to learn new technologies that I can use in my future work.  Even though I have not worked in this field before, my previous jobs have developed my ability to work with others, my organising skills to a professional level. I am looking forward to finally trying my hand at a company that not only develops my front-end skills, but also my soft-skills.',
     buttonLabel: 'Skills',
     imgStart: false,
     img: "images/profilePic.png",
